@@ -9,7 +9,7 @@ export default function ProjectCard({
   live,
 }) {
   return (
-    <div className='flex flex-col bg-[#0d1224] border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]'>
+    <div className='flex flex-col bg-[#0d1224] border border-[#2a2e5a] shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]'>
       <Image
         className='w-full h-auto rounded-t-xl'
         src={image ? image?.src : placeholder}
