@@ -1,5 +1,5 @@
-import { myBio } from '@/utils/data/bio'
-import Image from 'next/image'
+import { myBio } from "@/utils/data/bio";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -28,10 +28,10 @@ export default function AboutSection() {
             width={280}
             height={280}
             alt='Mpho Moipolai'
-            className='rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer'
+            className='w-auto h-auto rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer'
           />
         </div>
       </div>
     </div>
-  )
+  );
 }

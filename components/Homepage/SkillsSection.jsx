@@ -1,7 +1,7 @@
-import Marquee from 'react-fast-marquee'
-import { skillsData } from '@/utils/data/skills'
-import { skillsImage } from '@/utils/data/skillsImage'
-import Image from 'next/image'
+import Marquee from "react-fast-marquee";
+import { skillsData } from "@/utils/data/skills";
+import { skillsImage } from "@/utils/data/skillsImage";
+import Image from "next/image";
 
 export default function SkillsSection() {
   return (
@@ -55,7 +55,7 @@ export default function SkillsSection() {
                       alt={skill}
                       width={40}
                       height={40}
-                      className='h-full w-auto rounded-lg'
+                      className='h-full w-full rounded-lg'
                     />
                   </div>
                   <p className='text-white text-sm sm:text-lg'>{skill}</p>
@@ -66,5 +66,5 @@ export default function SkillsSection() {
         </Marquee>
       </div>
     </div>
-  )
+  );
 }

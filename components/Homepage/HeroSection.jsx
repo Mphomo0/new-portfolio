@@ -1,9 +1,9 @@
-import { myBio } from '@/utils/data/bio'
-import Image from 'next/image'
-import Link from 'next/link'
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { MdDownload } from 'react-icons/md'
-import { RiContactsFill } from 'react-icons/ri'
+import { myBio } from "@/utils/data/bio";
+import Image from "next/image";
+import Link from "next/link";
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { MdDownload } from "react-icons/md";
+import { RiContactsFill } from "react-icons/ri";
 
 export default function HeroSection() {
   return (
@@ -14,6 +14,7 @@ export default function HeroSection() {
         width={1572}
         height={792}
         className='absolute -top-[98px] -z-10'
+        priority
       />
 
       <div className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8'>
@@ -89,7 +90,7 @@ export default function HeroSection() {
                 <span className='mr-2 text-pink-500'>const</span>
                 <span className='mr-2 text-white'>coder</span>
                 <span className='mr-2 text-pink-500'>=</span>
-                <span className='text-gray-400'>{'{'}</span>
+                <span className='text-gray-400'>{"{"}</span>
               </div>
               <div>
                 <span className='ml-4 lg:ml-8 mr-2 text-white'>name:</span>
@@ -151,7 +152,7 @@ export default function HeroSection() {
                   hireable:
                 </span>
                 <span className='text-orange-400'>function</span>
-                <span className='text-gray-400'>{'() {'}</span>
+                <span className='text-gray-400'>{"() {"}</span>
               </div>
               <div>
                 <span className='ml-8 lg:ml-16 mr-2 text-orange-400'>
@@ -173,7 +174,7 @@ export default function HeroSection() {
                 <span className='ml-12 lg:ml-24 text-cyan-400'>this.</span>
                 <span className='mr-2 text-white'>skills.length</span>
                 <span className='mr-2 text-amber-300'>&gt;=</span>
-                <span className='text-orange-400'>5</span>
+                <span className='text-orange-400'>7</span>
               </div>
               <div>
                 <span className='ml-8 lg:ml-16 mr-2 text-gray-400'>{`);`}</span>
@@ -189,5 +190,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

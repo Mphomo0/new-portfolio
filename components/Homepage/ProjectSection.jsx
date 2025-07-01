@@ -1,5 +1,5 @@
-import { projectsData } from '@/utils/data/projects-data'
-import ProjectCard from './projects/ProjectCard'
+import { projectsData } from "@/utils/data/projects-data";
+import ProjectCard from "./projects/ProjectCard";
 
 export default function ProjectSection() {
   return (
@@ -20,5 +20,5 @@ export default function ProjectSection() {
         ))}
       </div>
     </div>
-  )
+  );
 }
